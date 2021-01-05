@@ -14,7 +14,6 @@ public class Index {
 
     @GetMapping
     public String index() throws InterruptedException {
-        Thread.sleep(2000L);
         return "IP";
     }
 }
